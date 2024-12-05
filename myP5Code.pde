@@ -12,9 +12,10 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
-  
-
+ellipse(190,150,100,150);
+quad(144,199,227,199,244,268,102,268);
+  line(143,195,62,268);
+line(230,195,286,257);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
