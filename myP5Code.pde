@@ -12,7 +12,19 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+background (0,0,0);
+noStroke();
 
+// head
+fill(220,255,150);
+ellipse(210,150,140,140);
+
+// body
+
+ellipse(220,300,140,250);
+strokeWeight(64);
+stroke(0,0,0);
+line(57,382,345,362);
   
 
 }
