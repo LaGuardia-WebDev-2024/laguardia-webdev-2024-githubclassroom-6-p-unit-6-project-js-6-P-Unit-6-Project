@@ -13,15 +13,23 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
 background (0,0,0);
-noStroke();
 
 // head
 fill(220,255,150);
-ellipse(210,150,140,140);
+ellipse(210,150,150,145);
+strokeWeight(10);
+point(160,133);
+point(210,133);
+line(169,170,195,170);
+noStroke();
+fill(160,240,150);
+triangle(180,133,169,160,190,160);
+fill(220,255,150);
 
+    
 // body
-
 ellipse(220,300,140,250);
+ellipse(220,265,160,130);
 strokeWeight(64);
 stroke(0,0,0);
 line(57,382,345,362);
