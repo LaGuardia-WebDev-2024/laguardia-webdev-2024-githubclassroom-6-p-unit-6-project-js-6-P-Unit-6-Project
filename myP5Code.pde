@@ -11,11 +11,40 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
-ellipse(190,150,100,150);
-quad(144,199,227,199,244,268,102,268);
-  line(143,195,62,268);
-line(230,195,286,257);
+  //face
+  fill(242, 211, 176);
+ellipse(185,135,100,118);
+//bodess
+fill(143, 111, 19);
+quad(144,199,227,199,260,268,102,268);
+//headscarf
+fill(49, 92, 171);
+rect(145,75,83,40);
+//hangingcloth
+fill(209, 189, 108);
+triangle(225,95,265,245,291,173);
+//earring
+fill(255,255,255);
+ellipse(226,179,30,35);
+//bodess2
+fill(143, 111, 19);
+rect(98,264,170,264);
+//eyeball
+fill(255,255,255);
+ellipse(150,130,15,15);
+//eyeball2
+fill(255,255,255);
+ellipse(181,130,15,15);
+//pupil
+fill(0,0,0);
+ellipse(149,128,5,5);
+//pupil2
+fill(0,0,0);
+//line
+ellipse(181,128,5,5);
+line(153,182,143,197);
+fill(217, 128, 121);
+arc(159,156,30,10,radians(0),radians(180));
 }
 
 //🟡Extra FUN Features Ms. Hall Added
