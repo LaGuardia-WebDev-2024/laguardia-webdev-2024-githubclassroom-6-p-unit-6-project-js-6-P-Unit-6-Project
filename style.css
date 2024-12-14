@@ -1,10 +1,17 @@
 body {
-  background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/11/chill-guy-background.jpg");
+  background-image: url("https://www.coopersfire.com/wp-content/uploads/2021/03/raquel-raclette-MYjFOiVWWT8-unsplash.jpg");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
   margin-top: 10%;
+}
+
+.para {
+   height: 400px;
+  width: 400px;
+  object-fit: cover;
+  
 }
 
 html{
@@ -20,7 +27,7 @@ html{
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-image: url("https://www.coopersfire.com/wp-content/uploads/2021/03/raquel-raclette-MYjFOiVWWT8-unsplash.jpg");
   justify-content: space-around;
   align-items: flex-start;
 }
@@ -34,8 +41,10 @@ html{
 }
 
 h2{
-  color: black;
+  color: white;
 }
+
+h1{color: white;}
 
 #start{
   text-align: left;
