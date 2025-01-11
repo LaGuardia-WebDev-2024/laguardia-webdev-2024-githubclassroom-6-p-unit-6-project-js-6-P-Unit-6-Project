@@ -1,12 +1,12 @@
 <!-- Unit 6 Project
 Requirements
-[  ] three different shapes
-[  ] three different RGB colors
-[  ] three comments 
-[  ] three new HTML elements 
+[ yes] three different shapes
+[ yes] three different RGB colors
+[ yes] three comments 
+[yes] three new HTML elements 
 
 Select ONE Additional 
-[ no ] Feature 1 - three different strokeWeight() commands
+[ yes] Feature 1 - three different strokeWeight() commands
 [ no ] Feature 2 - Add a second <canvas>
 [ no ] Feature 3 - Change Tab Title & Image
 [ no ] Feature 4 - Typewriter Animation
@@ -21,19 +21,32 @@ Select ONE Additional
     <title>Unit 6 Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-    <style></style>
+
+    
+    <!--Font      -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+     
+    </style>
   </head>
 
   <body>
+    <h1>
+      <span class="other"><a href="index.html">Return Home</a></span><span class="title">Neptune </span><span class="link"><a href="photos.html">Cool Neptune Photos</a></span>
+    </h1>
+    <br>
     <div class="container">
       <div>
-        <h2 id="start">How it started.</h2>
+        <h2 id="start">Universe's Version</h2>
         <img
-          class="pic" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Chill_guy_original_artwork.jpg/220px-Chill_guy_original_artwork.jpg"
+          class="pic" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/05/11/17/neptune.jpg"
         />
       </div>
       <div>
-        <h2 id="end">How it ended.</h2>
+        <h2 id="end">My Version</h2>
         <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
       </div>
     </div>
